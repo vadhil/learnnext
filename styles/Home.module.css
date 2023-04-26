@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/alien-invader');
+                
+
 .main {
   display: flex;
   flex-direction: column;
@@ -5,6 +8,32 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+}
+.heading{
+  color: red;
+  font-family: 'Alien Invader', sans-serif;
+
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.navbar{
+  height: 70px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: black;
+  color: orange;
+  font-family: 'Alien Invader', sans-serif;
+  margin-bottom: 40px;
+                                                
+
 }
 
 .description {
